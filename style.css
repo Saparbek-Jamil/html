@@ -1,6 +1,22 @@
 body{
 
 }
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+h1 {
+    margin: 0;
+}
+.intro {
+    width: 100%;
+    height: 100vh;
+
+    background: 
+    url("foto/foto1")
+    center;
+}
 .div{
 	    margin: 100;
     padding: 100;
