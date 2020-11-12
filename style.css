@@ -2,6 +2,25 @@ body{
 
 }
 
+.mod-cont {
+    padding: 60px;
+    height: auto;
+    padding-bottom: 229px;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.container: before {
+        display: table;
+    content: " ";
+}
+.col-xs-12 {
+    width: 100%
+    float:left;
+}
 .div{
 	    margin: 100;
     padding: 100;
@@ -30,6 +49,14 @@ body{
     margin-right: -15px;
     margin-left: -15px;
 }
+.row:before {
+    display: table;
+    content: " ";
+}
+.row: after {
+    clear: both;
+
+}
 .col-xs-12 {
     width: 100%;
 }
@@ -53,6 +80,7 @@ body{
     padding-right: 15px;
     padding-left: 15px;
 }
+
 .title-md{
 	font-size: 30px;
 }
@@ -68,10 +96,10 @@ body{
     transition: 0.8s;
 }
 .md {
-    color: #3498db;
+    color: #c0392b
 }
 .md:hover {
-    color: #3498db;
+    color: #c0392b
 }
 p{
 	color:green;
