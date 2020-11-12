@@ -85,6 +85,9 @@ h1 {
 .md {
     color: #3498db;
 }
+.md:hover {
+    color: #3498db;
+}
 p{
 	color:green;
 }
