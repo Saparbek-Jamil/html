@@ -3,8 +3,9 @@ body {
     font-size: 14px;
     line-height: 1.42857143;
     color: #333333;
-    background-color: #fff;
+    background-color: #bdc3c7;
 }
+
 .div {
         margin: 0;
     padding: 0;
@@ -32,6 +33,26 @@ a {
     text-decoration: none;
     background-color: transparent;
 }
+.t-none {
+    width: 190px;
+    display: inline-block;
+}
+.btn-juktey{
+
+    display: block;
+    color: #fff;
+    border-radius: 20px;
+    width: 190px;
+    margin-right: 25px;
+    padding: 12px 10px;
+    font-size: 16px;
+    background: #0a195f;
+    font-family: "Gotham-Book";
+    font-weight: bold;
+    border: 1px solid #0a195f;
+    margin-top: 20px;
+}
+
 .btn-mdd {
     width: 250px;
     height: 55px;
